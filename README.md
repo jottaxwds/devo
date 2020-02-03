@@ -1,6 +1,9 @@
 ## Description:
 The exercises were developed by using javascript. A main.js is provided and could be used to run the exercises with hardcoded input values since the exercises only ask for the implementation of the methods that allow to get the expected outcome from each one.
 
+Methods are unit tested considering cornercases.
+Additional validation functions were created for k-complementary exercise.
+
 ## Requirements:
 Is required to have NodeJS installed.
 
