@@ -16,7 +16,7 @@ const isPalindrom = (head, tail, item) => {
  * @returns {Boolean} is palindrom ? true : false
 */
 const checkIfPalindrom = (valueToCheck) => {
-    if(typeof valueToCheck === "string") {
+    if(typeof valueToCheck === "string" && valueToCheck !== "") {
         let arrayToCheck = valueToCheck.split("");
         return isPalindrom(arrayToCheck.shift(), arrayToCheck.pop(), arrayToCheck);
     } else {

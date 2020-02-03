@@ -13,7 +13,7 @@ describe('palindrom unit test', () => {
   });
 
   it('Returns false if given string is empty', () => {
-      const input = "RODABALLO";
+      const input = "";
       expect(checkIfPalindrom(input)).toBe(false);
   });
 
