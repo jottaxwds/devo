@@ -11,8 +11,11 @@ To install node, you can get rid of NVM (Node Version Management) that can be ea
 - ![NVM (Node Version Manager) Official Repo](https://github.com/nvm-sh/nvm) 
 
 ## Instructions:
-- Run exercises with hardcoded input data values: `node main.js`
-- Run unit tests: `yarn test`
+- Open terminal and go to project directory.
+- Run this command to execute the exercises with hardcoded input data values: `node main.js`
+- Run unit tests: 
+  - 1st, *JEST* & needed dependencies should be installed -> `yarn install`
+  - 2nd, use this command to run the tests -> `yarn install`
 
 ## Correctness:
 • does it work? Yes
