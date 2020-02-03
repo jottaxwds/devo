@@ -1,0 +1,14 @@
+{
+  "name": "davo-challenge",
+  "version": "1.0.0",
+  "description": "Davo FE challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "jantocv",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
