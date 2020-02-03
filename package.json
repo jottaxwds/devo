@@ -1,7 +1,7 @@
 {
-  "name": "davo-challenge",
+  "name": "devo-challenge",
   "version": "1.0.0",
-  "description": "Davo FE challenge",
+  "description": "Devo FE challenge",
   "main": "index.js",
   "scripts": {
     "test": "jest"
