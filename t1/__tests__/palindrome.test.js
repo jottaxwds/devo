@@ -1,6 +1,5 @@
 const { checkIfPalindrom } = require('../checkIfPalindrom');
 
-
 describe('palindrom unit test', () => {
   it('Returns true if given string is palindrom', () => {
     const input = "RADAR";
