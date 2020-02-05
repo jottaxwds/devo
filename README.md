@@ -18,10 +18,10 @@ To install node, you can get rid of NVM (Node Version Management) that can be ea
   - 2nd, use this command to run the tests -> `yarn install`
 
 ## Correctness:
-• does it work? Yes
-• Is it tested? Yes
-• Is it well designed? -
-• Is the code easy to comprehend? Yes
-• Performs well? 
-• Would this code be easy to extend or maintain? The solution is made using functional programming. That means, each method has it owns responsibility. The scalability remains on the "pieces" someone needs to add to this existing code and the combination between them.
+- does it work? Yes
+-  Is it tested? Yes
+-  Is it well designed? N/A
+-  Is the code easy to comprehend? Yes
+-  Performs well? 
+-  Would this code be easy to extend or maintain? The solution is made using functional programming. That means, each method has it owns responsibility. The scalability remains on the "pieces" someone needs to add to this existing code and the combination between them.
 
