@@ -11,6 +11,11 @@ describe('palindrom unit test', () => {
     expect(checkIfPalindrom(input)).toBe(false);
   });
 
+  it('Returns true if given strings is a palindrom with accents, diacritics and symbols', () => {
+    const input = 'RäD-.-dÁr';
+    expect(checkIfPalindrom(input)).toBe(true);
+  });
+
   it('Returns false if given string is empty', () => {
     const input = '';
     expect(checkIfPalindrom(input)).toBe(false);
