@@ -25,3 +25,9 @@ To install node, you can get rid of NVM (Node Version Management) that can be ea
 -  Performs well? 
 -  Would this code be easy to extend or maintain? The solution is made using functional programming. That means, each method has it owns responsibility. The scalability remains on the "pieces" someone needs to add to this existing code and the combination between them.
 
+## Extra ->
+
+To run 3rd exercise:
+
+- Open terminal and go to project directory
+- Run command -> `node ./t3/files.js ./direct  "terms you want to find"` replacing "terms you want to find" for the desired terms.
