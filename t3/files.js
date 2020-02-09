@@ -72,9 +72,8 @@ const getTermFrequency = (terms, file, outputs) => {
   }
 };
 
-
 /**
- * 
+ *
  * @param {Object} params idf, tf information for each file, files
  * @returns {Array} idf for each given file
  */
@@ -91,9 +90,6 @@ const getTfIdfInFiles = ({ idf, tf, filesInPath }) => {
 
   return tfIdf;
 };
-
-
-
 
 /**
  * Main:
@@ -112,7 +108,6 @@ const totalFiles = filesInPath.length;
 // IDF & TF calculations output:
 let outputs = { idf: 0, tf: [] };
 
-
 // Update TFs for each file:
 filesInPath.forEach(file => {
   getTermFrequency(terms, file, outputs);
@@ -128,6 +123,6 @@ let tfIdfInFiles = getTfIdfInFiles({
   filesInPath
 });
 
-console.log("Results: ", tfIdfInFiles);
+console.log('Results: ', tfIdfInFiles);
 
 module.exports = { getAllFilePathsFromDir };
